@@ -1,0 +1,175 @@
+# Grimm's conjecture (Erdos problem 375) run certificate
+# assembled 2026-08-26T10:51:26Z
+# host: Darwin 25.5.0 arm64   cc: Apple clang version 21.0.0 (clang-2100.1.1.101)
+# source sha256: c1fc06d9135d4e046f97637a7006025a709b6c465c9535b9ef6c9313c36739c9  src/grimm.c
+# verifier sha256: 6b296d81c8e1240f5b5e620ee8f98e58556b9573be497a0572dfc2be6b3ed827  verify_375.py
+
+## sieve validation, must read primes seen 455052511
+range            [2, 10000000000)   (scan from 2)
+primes seen      455052511
+gaps checked     455052509
+largest gap      k=353 after p=4302407359
+gaps with |S|>=1 1433542
+gaps with |S|>=2 47404
+gaps with |S|>=3 4069
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      103.4
+smooth bound B   512
+
+## shard summaries
+--- data/shard_00_summary.txt
+range            [2, 83333333333)   (scan from 2)
+primes seen      3457724375
+gaps checked     3457724373
+largest gap      k=463 after p=42652618343
+gaps with |S|>=1 4696692
+gaps with |S|>=2 87549
+gaps with |S|>=3 5287
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      997.0
+smooth bound B   512
+--- data/shard_01_summary.txt
+range            [83333333333, 166666666666)   (scan from 83333331333)
+primes seen      3264013559
+gaps checked     3264013558
+largest gap      k=467 after p=127976334671
+gaps with |S|>=1 2193652
+gaps with |S|>=2 17969
+gaps with |S|>=3 344
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      978.3
+smooth bound B   512
+--- data/shard_02_summary.txt
+range            [166666666666, 249999999999)   (scan from 166666664666)
+primes seen      3198341844
+gaps checked     3198341843
+largest gap      k=485 after p=241160624143
+gaps with |S|>=1 1726099
+gaps with |S|>=2 12005
+gaps with |S|>=3 210
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      973.6
+smooth bound B   512
+--- data/shard_03_summary.txt
+range            [249999999999, 333333333332)   (scan from 249999997999)
+primes seen      3157150098
+gaps checked     3157150097
+largest gap      k=513 after p=304599508537
+gaps with |S|>=1 1475446
+gaps with |S|>=2 9254
+gaps with |S|>=3 133
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1074.9
+smooth bound B   2048
+--- data/shard_04_summary.txt
+range            [333333333332, 416666666665)   (scan from 333333331332)
+primes seen      3127175099
+gaps checked     3127175098
+largest gap      k=515 after p=416608695821
+gaps with |S|>=1 1313689
+gaps with |S|>=2 7427
+gaps with |S|>=3 111
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1069.4
+smooth bound B   2048
+--- data/shard_05_summary.txt
+range            [416666666665, 499999999998)   (scan from 416666664665)
+primes seen      3103731565
+gaps checked     3103731564
+largest gap      k=531 after p=461690510011
+gaps with |S|>=1 1198125
+gaps with |S|>=2 6219
+gaps with |S|>=3 80
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1060.6
+smooth bound B   2048
+--- data/shard_06_summary.txt
+range            [499999999998, 583333333331)   (scan from 499999997998)
+primes seen      3084510529
+gaps checked     3084510528
+largest gap      k=465 after p=565855695631
+gaps with |S|>=1 1106381
+gaps with |S|>=2 5444
+gaps with |S|>=3 62
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1075.0
+smooth bound B   2048
+--- data/shard_07_summary.txt
+range            [583333333331, 666666666664)   (scan from 583333331331)
+primes seen      3068196205
+gaps checked     3068196204
+largest gap      k=533 after p=614487453523
+gaps with |S|>=1 1038247
+gaps with |S|>=2 4996
+gaps with |S|>=3 71
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1067.9
+smooth bound B   2048
+--- data/shard_08_summary.txt
+range            [666666666664, 749999999997)   (scan from 666666664664)
+primes seen      3054125723
+gaps checked     3054125722
+largest gap      k=539 after p=738832927927
+gaps with |S|>=1 979690
+gaps with |S|>=2 4413
+gaps with |S|>=3 59
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1073.0
+smooth bound B   2048
+--- data/shard_09_summary.txt
+range            [749999999997, 833333333330)   (scan from 749999997997)
+primes seen      3041702880
+gaps checked     3041702879
+largest gap      k=503 after p=789448506659
+gaps with |S|>=1 930697
+gaps with |S|>=2 4074
+gaps with |S|>=3 44
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1067.8
+smooth bound B   2048
+--- data/shard_10_summary.txt
+range            [833333333330, 916666666663)   (scan from 833333331330)
+primes seen      3030605766
+gaps checked     3030605765
+largest gap      k=515 after p=893531612273
+gaps with |S|>=1 889885
+gaps with |S|>=2 3797
+gaps with |S|>=3 42
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1064.9
+smooth bound B   2048
+--- data/shard_11_summary.txt
+range            [916666666663, 1000000000000)   (scan from 916666664663)
+primes seen      3020635214
+gaps checked     3020635213
+largest gap      k=499 after p=929156727137
+gaps with |S|>=1 852391
+gaps with |S|>=2 3450
+gaps with |S|>=3 32
+FAILURES         0
+truncations      0   (must be 0)
+cpu seconds      1060.3
+smooth bound B   2048
+
+## independent verification of the certificate rows
+verify_375.py sample, 200 random rows per shard plus every row with |S| >= 4:
+3141 rows rechecked from scratch across 12 shards, 0 failures.
+Full log in data/final_sample.txt (gitignored).
+
+## end to end sieve check
+sum of the 12 shard prime counts   37607912857
+known pi(10^12)                    37607912018
+excess                                     839
+expected from the 11 shard overlaps of 2000 integers each, about 823.

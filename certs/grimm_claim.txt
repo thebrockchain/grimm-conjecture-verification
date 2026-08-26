@@ -1,0 +1,25 @@
+shard 00  [2,83333333333)  primes=3457724375  maxk=463  |S|>=2:87549  FAIL=0  trunc=0  B=512  cpu=997.0s
+shard 01  [83333333333,166666666666)  primes=3264013559  maxk=467  |S|>=2:17969  FAIL=0  trunc=0  B=512  cpu=978.3s
+shard 02  [166666666666,249999999999)  primes=3198341844  maxk=485  |S|>=2:12005  FAIL=0  trunc=0  B=512  cpu=973.6s
+shard 03  [249999999999,333333333332)  primes=3157150098  maxk=513  |S|>=2:9254  FAIL=0  trunc=0  B=2048  cpu=1074.9s
+shard 04  [333333333332,416666666665)  primes=3127175099  maxk=515  |S|>=2:7427  FAIL=0  trunc=0  B=2048  cpu=1069.4s
+shard 05  [416666666665,499999999998)  primes=3103731565  maxk=531  |S|>=2:6219  FAIL=0  trunc=0  B=2048  cpu=1060.6s
+shard 06  [499999999998,583333333331)  primes=3084510529  maxk=465  |S|>=2:5444  FAIL=0  trunc=0  B=2048  cpu=1075.0s
+shard 07  [583333333331,666666666664)  primes=3068196205  maxk=533  |S|>=2:4996  FAIL=0  trunc=0  B=2048  cpu=1067.9s
+shard 08  [666666666664,749999999997)  primes=3054125723  maxk=539  |S|>=2:4413  FAIL=0  trunc=0  B=2048  cpu=1073.0s
+shard 09  [749999999997,833333333330)  primes=3041702880  maxk=503  |S|>=2:4074  FAIL=0  trunc=0  B=2048  cpu=1067.8s
+shard 10  [833333333330,916666666663)  primes=3030605766  maxk=515  |S|>=2:3797  FAIL=0  trunc=0  B=2048  cpu=1064.9s
+shard 11  [916666666663,1000000000000)  primes=3020635214  maxk=499  |S|>=2:3450  FAIL=0  trunc=0  B=2048  cpu=1060.3s
+
+shards finished        12 of 12
+CONTIGUOUS VERIFIED TO 1000000000000
+  (precisely: every maximal all-composite run whose closing prime is
+   below 1000000000000 has a system of distinct prime representatives)
+primes seen            37607912857  (shard overlaps double count a few)
+gaps checked           37607912844
+largest gap            k=539 after p=738832927927
+gaps with |S|>=1       18400994
+gaps with |S|>=2       166597   (the certificate rows)
+gaps with |S|>=3       6475
+FAILURES               0
+total CPU seconds      12562.7
