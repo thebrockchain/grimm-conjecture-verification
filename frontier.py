@@ -314,7 +314,7 @@ def render(card):
         L.append("")
     txt = "\n".join(L)
     # house rule: no em dashes, no en dashes in anything we write
-    return txt.replace("—", "-").replace("–", "-").replace("−", "-")
+    return txt.replace("—", "-").replace("–", "-").replace("−", "-")  # dash:allow this line IS the stripper and must name what it removes
 
 
 def census(yml):
