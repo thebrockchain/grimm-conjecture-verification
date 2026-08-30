@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# crew: Napoleon
 """frontier.py - find the TRUE current state of an Erdos problem before spending compute.
 
 Why this exists: the bars quoted on erdosproblems.com and in OEIS are often stale
